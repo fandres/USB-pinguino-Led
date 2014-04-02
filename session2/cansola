@@ -1,0 +1,3 @@
+pyuic4 led.ui -o ledUi.py
+pyrcc4 iconos.qrc -o iconosrcc.py
+

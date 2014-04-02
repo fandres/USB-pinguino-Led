@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>254</width>
+    <height>126</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Conexión pinguino </string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../iconos/iconos.qrc">
+    <normaloff>:/led.svg</normaloff>:/led.svg</iconset>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>251</width>
+     <height>122</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="KLed" name="kled_1">
+        <property name="state">
+         <enum>KLed::Off</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="KLed" name="kled_2">
+        <property name="state">
+         <enum>KLed::Off</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="KLed" name="kled_3">
+        <property name="state">
+         <enum>KLed::Off</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Led 1:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Led 2:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Led 3:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="boton_led1">
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cambia el estado de el &lt;span style=&quot; font-weight:600;&quot;&gt;led 1&lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;[Off/On]&lt;/span&gt;, en la placa pinguino y en la aplicacion.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>On</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../iconos/iconos.qrc">
+          <normaloff>:/ok.svg</normaloff>:/ok.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="boton_led2">
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cambia el estado de el &lt;span style=&quot; font-weight:600;&quot;&gt;led 2&lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;[Off/On]&lt;/span&gt;, en la placa pinguino y en la aplicacion.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>On</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../iconos/iconos.qrc">
+          <normaloff>:/ok.svg</normaloff>:/ok.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="boton_led3">
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cambia el estado de el &lt;span style=&quot; font-weight:600;&quot;&gt;led 3&lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;[Off/On]&lt;/span&gt;, en la placa pinguino y en la aplicacion.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>On</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../iconos/iconos.qrc">
+          <normaloff>:/ok.svg</normaloff>:/ok.svg</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="0" colspan="3">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="boton_salir">
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cierra correctamente la conexión con el pinguino y termina la aplicacion.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>Salir</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../iconos/iconos.qrc">
+          <normaloff>:/exit.svg</normaloff>:/exit.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="boton_iniciar">
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da inicio a la &lt;span style=&quot; font-weight:600;&quot;&gt;conexión&lt;/span&gt; con el pinguino.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>&amp;Iniciar</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../iconos/iconos.qrc">
+          <normaloff>:/conectar.svg</normaloff>:/conectar.svg</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KLed</class>
+   <extends>QWidget</extends>
+   <header>kled.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>boton_led1</tabstop>
+  <tabstop>boton_led2</tabstop>
+  <tabstop>boton_led3</tabstop>
+  <tabstop>boton_iniciar</tabstop>
+  <tabstop>boton_salir</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../iconos/iconos.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>boton_salir</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>79</x>
+     <y>116</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>96</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
