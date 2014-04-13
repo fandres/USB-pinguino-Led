@@ -4,6 +4,8 @@ Created on Sun Mar 23 21:13:10 2014
 
 @author: fAnDrEs
 
+Board pinguino: https://github.com/fandres/USB-pinguino-Led/tree/master/session7/pinguino
+
 << Iconos Flamini 0.3            License: GPL         [kotus.works@gmail.com] >>
 << Pinguino by Marin Purgar (marin.purgar@gmail.com)                          >>
 
