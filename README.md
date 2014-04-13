@@ -1,4 +1,4 @@
-#Interfaz USB con la board pingüino con PyQt + PyKDE + pynguino
+#Interfaz USB, modo BULK, con la board pingüino con python, PyQt + PyKDE + pynguino
 ==============================================================
 
 Un pequeño ejemplo de el uso de la especificación USB en modo BULK “PC – board pinguino” , programando la interfaz gráfica de usuario con PyQt4, PyKDE  y programado desde python 2x. 
@@ -17,7 +17,7 @@ Usando en la board pinguino el proyecto "pynguino".
 Se divide en 6 sesiones
 
 | session | Propósito |
-| ------- | --------- |
+| -------- | -------- |
 | sesión 1 |  Se crea la interfaz gráfica con la herramienta Qt Designer[4]. |
 | sesión 2 |  Agregamos iconos. |
 | sesión 3 |  Creamos el lanzador de la interfaz de  usuario. |
@@ -33,6 +33,7 @@ Se divide en 6 sesiones
 - PyKDE
 - Qt4-Designer 
 - IDE o cualquier editor de texto
+- board pinguino 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # DOCUMENTACIÓN
