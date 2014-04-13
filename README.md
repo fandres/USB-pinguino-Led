@@ -17,13 +17,14 @@ Usando en la board pinguino el proyecto "pynguino".
 Se divide en 6 sesiones
 
 | session | Propósito |
-| sesión 1 |  Se crea la interfaz gráfica con la herramienta Qt Designer[4] |
-| sesión 2 |  Agregamos iconos |
-| sesión 3 |  Creamos el lanzador de la interfaz de  usuario |
-| sesión 4 |  Empezando con SIGNAL/Slot. Cierra nuestra aplicacion |
-| sesión 5 |  Auto conectores, Signal/Slot, programación de la interfaz de usuario y Conexion a la board pinguino |
-| sesión 6 |  Retocando |
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| ------- | --------- |
+| sesión 1 |  Se crea la interfaz gráfica con la herramienta Qt Designer[4]. |
+| sesión 2 |  Agregamos iconos. |
+| sesión 3 |  Creamos el lanzador de la interfaz de  usuario. |
+| sesión 4 |  Empezando con SIGNAL/Slot. Cierra nuestra aplicacion. |
+| sesión 5 |  Auto conectores, Signal/Slot, programación de la interfaz de usuario y Conexion a la board pinguino. |
+| sesión 6 |  Retocando. |
+
 
 # REQUERIMIENTOS
  
