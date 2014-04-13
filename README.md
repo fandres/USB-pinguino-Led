@@ -39,7 +39,8 @@ Se divide en 6 sesiones
 # DOCUMENTACIÓN
  
 - PyQt4  -------> https://wiki.python.org/moin/PyQt
-- PyQt4 -------> http://pyqt.sourceforge.net/Docs/PyQt4/|_ PyQt4 -------> http://zetcode.com/gui/pyqt4/
+- PyQt4 -------> http://pyqt.sourceforge.net/Docs/PyQt4/
+- PyQt4 -------> http://zetcode.com/gui/pyqt4/
 - Clases -------> http://pyqt.sourceforge.net/Docs/PyQt4/classes.html|
 - pyqwt --------> http://pyqwt.sourceforge.net/
 - pykde4 ------> http://api.kde.org/pykde-4.3-api/allclasses.html
