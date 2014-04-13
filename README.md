@@ -2,7 +2,7 @@
 ==============================================================
 
 Un pequeño ejemplo de el uso de la especificación USB en modo BULK “PC – board pinguino” , programando la interfaz gráfica de usuario con PyQt4, PyKDE  y programado desde python 2x. 
-Usando en la board pinguino el proyecto "pynguino".
+Usando en la board pinguino el inicialmente el proyecto "pynguino".
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -14,7 +14,7 @@ Usando en la board pinguino el proyecto "pynguino".
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Se divide en 6 sesiones
+Se divide en 6 sesiones y una session 7, esta ultima sin pynguino 
 
 | session | Propósito |
 | -------- | -------- |
@@ -24,6 +24,7 @@ Se divide en 6 sesiones
 | sesión 4 |  Empezando con SIGNAL/Slot. Cierra nuestra aplicacion. |
 | sesión 5 |  Auto conectores, Signal/Slot, programación de la interfaz de usuario y Conexion a la board pinguino. |
 | sesión 6 |  Retocando. |
+| sesión 7 |  Aplicacion sin pynguino. |
 
 
 # REQUERIMIENTOS
