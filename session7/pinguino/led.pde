@@ -2,7 +2,7 @@
 Author:  --<fandres>
 Date: 2014-04-13
 Description: Lee del host un caracter, este es comparado 
- con l fin de encender o apagar los leds 5, 6 y 7 de la board pinguino
+ con l fin de encender o apagar los leds 5, 6 y 7 de la board pinguino.
 
 Programa PC python: https://github.com/fandres/USB-pinguino-Led/tree/master/session7/python
 -----------------------------------------------------*/
