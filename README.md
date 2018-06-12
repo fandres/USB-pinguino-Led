@@ -1,4 +1,11 @@
-#Interfaz USB, modo BULK, con la board pingüino con python, PyQt + PyKDE + pynguino
+This repository is possibly outdated
+Este Repositorio se probablemente se encuentra desactualizado
+
+Repository migrated to https://gitlab.com/fandres323/USB-pinguino-Led
+Repositorio migrado a https://gitlab.com/fandres323/USB-pinguino-Led
+
+
+# Interfaz USB, modo BULK, con la board pingüino con python, PyQt + PyKDE + pynguino
 ==============================================================
 
 Un pequeño ejemplo de el uso de la especificación USB en modo BULK “PC – board pinguino” , programando la interfaz gráfica de usuario con PyQt4, PyKDE  y programado desde python 2x. 
